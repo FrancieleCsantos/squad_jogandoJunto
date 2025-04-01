@@ -1,0 +1,5 @@
+nome=input("Informe seu nome: ")
+altura=float(input("Informe sua altura: "))
+idade=input("Informe sua idade: ")
+dado_saida="{},{},{}".format(nome,altura,idade)
+print(dado_saida)
