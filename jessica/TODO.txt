@@ -1,0 +1,21 @@
+Desafio 1:
+- TODO 1.1: Filtrar apenas os números pares
+- TODO 1.2: Multiplicar cada número por 2
+- TODO 1.3: Ordenar a lista em ordem decrescente
+
+Desafio 2:
+- TODO 2.1: Filtrar apenas os elementos que são strings
+- TODO 2.2: Converter as strings para letras maiúsculas
+- TODO 2.3: Ordenar as strings em ordem alfabética
+
+Desafio 3:
+- TODO 3.1: Filtrar palavras que começam com a letra 'a' (maiúscula ou minúscula)
+- TODO 3.2: Converter para letras maiúsculas
+- TODO 3.3: Ordenar e converter em conjunto
+
+Desafio 4:
+- TODO 4.1: Obter valores do dicionário
+- TODO 4.2: Filtrar strings com mais de 3 letras
+- TODO 4.3: Converter para letras minúsculas
+- TODO 4.4: Ordenar em ordem alfabética
+
