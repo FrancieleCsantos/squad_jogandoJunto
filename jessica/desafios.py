@@ -7,9 +7,11 @@ def multiplicar_por_2(x):
 numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 # TODO 1.1: Filtrar apenas os números pares
+# no filter eu passo primeiro a função que vai retornar true ou false nesse caso, o que for true vai ser mantido na lista
 pares = filter(par, numeros)
 
 # TODO 1.2: Multiplicar cada número por 2
+# no map eu passo primeiro a função que será aplicada a todos os elementos da lista
 multiplicados = map(multiplicar_por_2, pares)
 
 # TODO 1.3: Ordenar a lista em ordem decrescente
@@ -18,13 +20,15 @@ resultado = sorted(multiplicados, reverse=True)
 print(resultado)
 
 
-
+#isinstance é para verificar se é uma string
 def string(x):
     return isinstance(x, str)
 
+#upper é para transformar em maiusculas
 def para_maiusculas(x):
     return x.upper()
 
+# é uma tupla contendo diferentes tipos de dados, como string e inteiros
 dados = ("maçã", 10, "banana", 5, "laranja", "uva", 20)
 
 # TODO 2.1: Filtrar apenas os elementos que são strings
@@ -39,13 +43,14 @@ resultado = tuple(sorted(maiusculas))
 print(resultado)
 
 
-
+#startswith verifica se a palavra começa com a
 def comeca_com_a(palavra):
     return palavra.lower().startswith("a")
 
 def para_maiusculas(palavra):
     return palavra.upper()
 
+# Um set é uma coleção não ordenada de elementos únicos.
 palavras = {"banana", "Abacate", "pera", "Amora", "uva", "aveia"}
 
 # TODO 3.1: Filtrar palavras que começam com a letra 'a' (maiúscula ou minúscula)
@@ -56,6 +61,7 @@ maiusculas = map(para_maiusculas, comeca_com_a_palavras)
 
 # TODO 3.3: Ordenar e converter em conjunto
 ordenadas = sorted(maiusculas)
+
 resultado = set(ordenadas)
 
 print(resultado)
@@ -68,6 +74,7 @@ def string_com_mais_de_3(x):
 def para_minusculas(x):
     return x.lower()
 
+# um dicionário é uma estrutura de dados que armazena pares de chave e valor.
 dicionario = {
     "a": 10,
     "b": "banana",
