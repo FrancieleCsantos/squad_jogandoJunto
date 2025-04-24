@@ -4,7 +4,6 @@ print (idades[0])
 
 #TODO: Imprima em For os indices
 
-
 # o len retorna o tamanho da lista enquanto o range gera os números de acordo com o tamanho da lista
 for i in range(len(idades)):
     if idades[i] >= 18:
